@@ -696,7 +696,7 @@ address strong, address b {
 /*== Theme Typography Style End ==*/
 /*== Header Area Start ==*/
 #header-area {
-    background-color: #202020;
+    background-color: #7AB2D3;
     padding: 25px 0;
     position: relative;
     -webkit-transition: all 0.4s ease-out;
@@ -707,7 +707,7 @@ address strong, address b {
 }
 
 #header-area.fixed {
-    background-color: #202020;
+    background-color: #7AB2D3;
     -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
@@ -789,7 +789,7 @@ address strong, address b {
 
 #header-area .header-right-meta ul li a {
     display: block;
-    color: #929292;
+    color: #fff;
     font-size: 1.8rem;
     line-height: 1.5;
     line-height: 1;
@@ -1015,7 +1015,7 @@ address strong, address b {
 }
 
 #header-area.header__2 .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-    background-color: #202020;
+    background-color: #fff;
 }
 
 #header-area.header__3 {
@@ -1049,7 +1049,7 @@ address strong, address b {
 }
 
 #header-area.header__3 .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-    background-color: #202020;
+    background-color: #fff;
 }
 
 /*== Navigation Area Start ==*/
@@ -1073,7 +1073,7 @@ address strong, address b {
 }
 
 #mainmenu ul li.dropdown-show:after {
-    color: #f4f5f7;
+    color: #fff;
     content: '\f107';
     display: block;
     font-family: "FontAwesome";
@@ -1106,7 +1106,7 @@ address strong, address b {
 }
 
 #mainmenu ul li.dropdown-show:hover:after {
-    color: #d82e2e;
+    color: #fff;
 }
 
 #mainmenu ul li.dropdown-show:hover > .dropdown-nav {
@@ -1354,7 +1354,7 @@ address strong, address b {
 }
 
 .slicknav_menu .slicknav_btn .slicknav_icon .slicknav_icon-bar {
-    background-color: #929292;
+    background-color: #fff;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -1649,7 +1649,7 @@ address strong, address b {
 }
 
 #banner-area:after {
-    background-color: #202020;
+    background-color: #7AB2D3;
     content: '';
     position: absolute;
     height: 100%;
@@ -5362,3 +5362,116 @@ fieldset legend {
 }
 
 /*== Footer Area End ==*/
+
+/* Mengatur font untuk simulasi-penjualan-area */
+#simulasi-penjualan-area {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling untuk Simulasi Card */
+#simulasi-penjualan-area .simulasi-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+#simulasi-penjualan-area .section-title h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+#simulasi-penjualan-area .section-title p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#simulasi-penjualan-area .form-simulasi label {
+    display: block;
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+#simulasi-penjualan-area .form-simulasi .form-input,
+#simulasi-penjualan-area .form-simulasi .form-select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#simulasi-penjualan-area .form-simulasi .btn-long-arrow {
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#simulasi-penjualan-area .form-simulasi .btn-long-arrow:hover {
+    background-color: #0056b3;
+}
+
+#simulasi-penjualan-area .hasil-simulasi {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+/* Styling untuk Harga Card */
+#simulasi-penjualan-area .harga-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+#simulasi-penjualan-area .harga-card h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#simulasi-penjualan-area .harga-card h3 i {
+    margin-right: 8px;
+}
+
+#simulasi-penjualan-area .harga-card p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+#simulasi-penjualan-area .harga-card p .harga {
+    font-weight: bold;
+    color: #007bff;
+}
+
+#simulasi-penjualan-area .harga-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}

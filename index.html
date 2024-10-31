@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="meta description">
 
-    <title>DNX - Jewelry Store eCommerce</title>
+    <title>I LOVE EMAS</title>
 
     <!--=== Favicon ===-->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/img/logo emas.png" type="image/x-icon"/>
 
     <!--== Google Fonts ==-->
     <link rel="stylesheet" type="text/css"
@@ -18,6 +18,8 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700"/>
     <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i"/>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
     <!--=== Bootstrap CSS ===-->
     <link href="assets/css/vendor/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +29,8 @@
     <link href="assets/css/plugins.css" rel="stylesheet">
     <!--=== Main Style CSS ===-->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
     <!-- Modernizer JS -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -46,7 +50,7 @@
             <!-- Logo Area Start -->
             <div class="col-3 col-lg-1 col-xl-2 m-auto">
                 <a href="index.html" class="logo-area">
-                    <img src="assets/img/logo.png" alt="Logo" class="img-fluid"/>
+                    <img src="assets/img/logo emas.png" alt="Logo" class="img-fluid"/>
                 </a>
             </div>
             <!-- Logo Area End -->
@@ -66,30 +70,6 @@
                                     <li><a href="index6.html">Home Layout 6</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown-show"><a href="#">Shop</a>
-                                <ul class="mega-menu-wrap dropdown-nav">
-                                    <li class="mega-menu-item"><a href="shop.html" class="mega-item-title">Shop
-                                        Layout</a>
-                                        <ul>
-                                            <li><a href="shop.html">Shop Left Sidebar</a></li>
-                                            <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                            <li><a href="shop-left-full-wide.html">Shop Left Full Wide</a></li>
-                                            <li><a href="shop-right-full-wide.html">Shop Right Full Wide</a></li>
-                                            <li><a href="shop-full-wide.html">Shop Without Sidebar</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="mega-menu-item"><a href="single-product.html" class="mega-item-title">Single
-                                        Products</a>
-                                        <ul>
-                                            <li><a href="single-product.html">Single Product</a></li>
-                                            <li><a href="single-product-normal.html">Single Product Normal</a></li>
-                                            <li><a href="single-product-group.html">Single Product Group</a></li>
-                                            <li><a href="single-product-external.html">Single Product External</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
                             <li class="dropdown-show"><a href="#">Pages</a>
                                 <ul class="dropdown-nav">
                                     <li><a href="cart.html">Shopping Cart</a></li>
@@ -99,97 +79,6 @@
                                     <li><a href="login-register.html">Login & Register</a></li>
                                     <li><a href="my-account.html">My Account</a></li>
                                     <li><a href="404.html">404 Error</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-show"><a href="#">Men</a>
-                                <ul class="mega-menu-wrap dropdown-nav">
-                                    <li class="mega-menu-item"><a href="shop-left-full-wide.html"
-                                                                  class="mega-item-title">Shirt</a>
-                                        <ul>
-                                            <li><a href="shop.html">Tops & Tees</a></li>
-                                            <li><a href="shop.html">Polo Short Sleeve</a></li>
-                                            <li><a href="shop.html">Graphic T-Shirts</a></li>
-                                            <li><a href="shop.html">Jackets & Coats</a></li>
-                                            <li><a href="shop.html">Fashion Jackets</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="mega-menu-item"><a href="shop-left-full-wide.html"
-                                                                  class="mega-item-title">Jeans</a>
-                                        <ul>
-                                            <li><a href="shop.html">Crochet</a></li>
-                                            <li><a href="shop.html">Sleeveless</a></li>
-                                            <li><a href="shop.html">Stripes</a></li>
-                                            <li><a href="shop.html">Sweaters</a></li>
-                                            <li><a href="shop.html">Hoodies</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="mega-menu-item"><a href="shop-left-full-wide.html"
-                                                                  class="mega-item-title">Shoes</a>
-                                        <ul>
-                                            <li><a href="shop.html">Tops & Tees</a></li>
-                                            <li><a href="shop.html">Polo Short Sleeve</a></li>
-                                            <li><a href="shop.html">Graphic T-Shirts</a></li>
-                                            <li><a href="shop.html">Jackets & Coats</a></li>
-                                            <li><a href="shop.html">Fashion Jackets</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="mega-menu-item"><a href="shop-left-full-wide.html"
-                                                                  class="mega-item-title">Watches</a>
-                                        <ul>
-                                            <li><a href="shop.html">Crochet</a></li>
-                                            <li><a href="shop.html">Sleeveless</a></li>
-                                            <li><a href="shop.html">Stripes</a></li>
-                                            <li><a href="shop.html">Sweaters</a></li>
-                                            <li><a href="shop.html">Hoodies</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-show"><a href="shop-left-full-wide.html">Women</a>
-                                <ul class="mega-menu-wrap dropdown-nav">
-                                    <li class="mega-menu-item"><a href="shop-left-full-wide.html"
-                                                                  class="mega-item-title">Kamiz</a>
-                                        <ul>
-                                            <li><a href="shop.html">Tops & Tees</a></li>
-                                            <li><a href="shop.html">Polo Short Sleeve</a></li>
-                                            <li><a href="shop.html">Graphic T-Shirts</a></li>
-                                            <li><a href="shop.html">Jackets & Coats</a></li>
-                                            <li><a href="shop.html">Fashion Jackets</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="mega-menu-item"><a href="shop-left-full-wide.html"
-                                                                  class="mega-item-title">Life Style</a>
-                                        <ul>
-                                            <li><a href="shop.html">Crochet</a></li>
-                                            <li><a href="shop.html">Sleeveless</a></li>
-                                            <li><a href="shop.html">Stripes</a></li>
-                                            <li><a href="shop.html">Sweaters</a></li>
-                                            <li><a href="shop.html">Hoodies</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="mega-menu-item"><a href="shop-left-full-wide.html"
-                                                                  class="mega-item-title">Shoes</a>
-                                        <ul>
-                                            <li><a href="shop.html">Tops & Tees</a></li>
-                                            <li><a href="shop.html">Polo Short Sleeve</a></li>
-                                            <li><a href="shop.html">Graphic T-Shirts</a></li>
-                                            <li><a href="shop.html">Jackets & Coats</a></li>
-                                            <li><a href="shop.html">Fashion Jackets</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-show"><a href="#">Blog</a>
-                                <ul class="dropdown-nav">
-                                    <li><a href="blog.html">Blog Right Sidebar</a></li>
-                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                    <li><a href="blog-grid.html">Blog Grid Layout</a></li>
-                                    <li><a href="single-blog.html">Blog Details</a></li>
                                 </ul>
                             </li>
                             <li><a href="contact.html">Contact Us</a></li>
@@ -322,9 +211,9 @@
                     <!-- Banner Single Carousel Start -->
                     <div class="single-carousel-wrap slide-item-1">
                         <div class="banner-caption text-center text-lg-left">
-                            <h4>Rubby Store</h4>
-                            <h2>Ring Solitaire Princess</h2>
-                            <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                            <h4>I LOVE EMAS</h4>
+                            <h2>Beli Emas Dengan Harga Tinggi</h2>
+                            <p>I Love Emas Membeli Perhiasan Emas, Perak, Berlian, Platinum, Paladium, dan Logam Mulia Lainnya dengan Segala Kondisi</p>
                             <a href="#" class="btn-long-arrow">Shop Now</a>
                         </div>
                     </div>
@@ -333,9 +222,31 @@
                     <!-- Banner Single Carousel Start -->
                     <div class="single-carousel-wrap slide-item-2">
                         <div class="banner-caption text-center text-lg-left">
-                            <h4>New Collection 2017</h4>
-                            <h2>Beautiful Earrings</h2>
-                            <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                            <h4>I LOVE EMAS</h4>
+                            <h2>Trustworty Precious Metal Buyer</h2>
+                            <p>I Love Emas adalah bisnis yang membeli dan menjual emas serta logam mulia lainnya, dengan cabang di 10 kota besar di Indonesia.</p>
+                            <a href="#" class="btn-long-arrow">Shop Now</a>
+                        </div>
+                    </div>
+                    <!-- Banner Single Carousel End -->
+
+                    <!-- Banner Single Carousel Start -->
+                    <div class="single-carousel-wrap slide-item-1">
+                        <div class="banner-caption text-center text-lg-left">
+                            <h4>I LOVE EMAS</h4>
+                            <h2>Punya Emas Rusak Atau Tidak Ada Surat?</h2>
+                            <p> Jual saja di I Love Emas, kami menerima segala jenis emas dan logam mulia dengan segala kondisi dengan pengecekan harga yang akurat.</p>
+                            <a href="#" class="btn-long-arrow">Shop Now</a>
+                        </div>
+                    </div>
+                    <!-- Banner Single Carousel End -->
+                    
+                    <!-- Banner Single Carousel Start -->
+                    <div class="single-carousel-wrap slide-item-2">
+                        <div class="banner-caption text-center text-lg-left">
+                            <h4>I LOVE EMAS</h4>
+                            <h2>Pengecekan Emas dengan Hasil Paling Akurat</h2>
+                            <p>Kami Menggunakan Precious Metal Analyser dan Ultrasonic Testing Machine untuk mengetahui kondisi emas dan logam mulia.</p>
                             <a href="#" class="btn-long-arrow">Shop Now</a>
                         </div>
                     </div>
@@ -354,7 +265,8 @@
             <div class="col-lg-6">
                 <!-- About Image Area Start -->
                 <div class="about-image-wrap">
-                    <a href="about.html"><img src="assets/img/about-img.png" alt="About Us" class="img-fluid"/></a>
+                    <!-- Div untuk menampilkan peta menggantikan gambar -->
+                    <div id="map" style="height: 350px; width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);"></div>
                 </div>
                 <!-- About Image Area End -->
             </div>
@@ -362,17 +274,17 @@
             <div class="col-lg-6 m-auto">
                 <!-- About Text Area Start -->
                 <div class="about-content-wrap ml-0 ml-lg-5 mt-5 mt-lg-0">
-                    <h2>About Us</h2>
-                    <h3>WE ARE VISIONARY</h3>
+                    <h2>Cabang</h2>
+                    <h3>Kami Tersebar Di 11 Cabang Seluruh Indonesia!</h3>
                     <div class="about-text">
-                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
-                            est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum
-                            formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc
-                            nobis videntur parum clari, fiant sollemnes in futurum.</p>
-
-                        <p>Typi noni habented claritatem insitamed ested usused legentis in iis qui facit eorum
-                            claritatem. Investigationes demonstraverunt lectores legere me lius quod ii loreem ipsum ius
-                            delour legunt saepius.</p>
+                        <p>I Love Emas terus hadir menyapa Anda! <strong>Segera kunjungi</strong> 
+                            gerai terbaru kami di <strong>FX Sudirman, F4 No.24, Jakarta Pusat</strong> 
+                            yang akan dibuka pada <strong>November 2024</strong>. Nikmati pengalaman berbelanja 
+                            perhiasan emas yang tak terlupakan. Selain itu, Anda juga dapat menemukan 
+                            toko I Love Emas di berbagai kota besar 
+                            seperti <strong>Jakarta Barat, Jakarta Selatan, Cakung, Bogor, Bekasi, 
+                            Cikarang, Bandung, Surabaya, Bali, Medan, dan Makassar</strong>. Semua gerai kami buka setiap 
+                            hari dengan jam operasional yang fleksibel, mulai dari pukul 09.00 hingga 21.45 waktu setempat.</p>
 
                         <a href="about.html" class="btn btn-long-arrow">Learn More</a>
 
@@ -386,6 +298,86 @@
     </div>
 </section>
 <!--== About Us Area End ==-->
+
+<!-- Section untuk simulasi penjualan emas -->
+<section id="simulasi-penjualan-area" style="background-color: #7AB2D3; padding: 40px ;">
+    <div class="ruby-container">
+        <div class="row">
+            <!-- Card Simulasi Penjualan di Sebelah Kiri -->
+            <div class="col-lg-8">
+                <div class="simulasi-card">
+                    <div class="section-title text-center">
+                        <h2>Simulasi Penjualan Logam Mulia</h2>
+                        <p>Masukkan detail untuk menghitung harga</p>
+                    </div>
+                    <form id="form-simulasi" class="form-simulasi text-center">
+                        <!-- Input Berat -->
+                        <label for="berat">Berat (gram):</label>
+                        <input type="number" id="berat" class="form-input" placeholder="Masukkan berat dalam gram" required />
+
+                        <!-- Input Karat (untuk emas) -->
+                        <label for="karat">Karat (khusus emas):</label>
+                        <select id="karat" class="form-select">
+                            <option value="">Pilih karat</option>
+                            <option value="K24-99.9">K24 (99.9%)</option>
+                            <option value="K24-99">K24 (99%)</option>
+                            <option value="K23">K23</option>
+                            <option value="K22">K22</option>
+                            <option value="K21">K21</option>
+                        </select>
+
+                        <!-- Input Jenis Logam Mulia -->
+                        <label for="jenis-logam">Jenis Logam Mulia:</label>
+                        <select id="jenis-logam" class="form-select" required>
+                            <option value="">Pilih jenis logam</option>
+                            <option value="emas">Emas</option>
+                            <option value="perak">Perak</option>
+                            <option value="platinum">Platinum</option>
+                            <option value="palladium">Palladium</option>
+                        </select>
+
+                        <!-- Input Kualitas Logam Mulia -->
+                        <label for="kualitas-logam">Kualitas (untuk Perak, Platinum, dll.):</label>
+                        <select id="kualitas-logam" class="form-select">
+                            <option value="">Pilih kualitas</option>
+                            <option value="high">High Quality</option>
+                            <option value="low">Low Quality</option>
+                        </select>
+
+                        <!-- Tombol Hitung Harga -->
+                        <button type="button" class="btn-long-arrow mt-3" onclick="hitungHarga()">Hitung Harga</button>
+                    </form>
+                    <!-- Area Hasil -->
+                    <p id="hasil-simulasi" class="hasil-simulasi"></p>
+                </div>
+            </div>
+
+            <!-- Card Harga Terkini di Sebelah Kanan -->
+            <div class="col-lg-4" style="padding-top: 20px;">
+                <div class="harga-card">
+                    <h3><i class="fas fa-coins"></i> Harga Emas</h3>
+                    <p>K24 (99.9%): <span class="harga">Rp 1.325.485 / gram</span></p>
+                </div>
+                <div class="harga-card">
+                    <h3><i class="fas fa-coins"></i> Harga Perak</h3>
+                    <p>High Quality: <span class="harga">Rp 11.920 / gram</span></p>
+                    <p>Low Quality: <span class="harga">Rp 9.366 / gram</span></p>
+                </div>
+                <div class="harga-card">
+                    <h3><i class="fas fa-gem"></i> Harga Platinum</h3>
+                    <p>High Quality: <span class="harga">Rp 427.382 / gram</span></p>
+                    <p>Low Quality: <span class="harga">Rp 351.064 / gram</span></p>
+                </div>
+                <div class="harga-card">
+                    <h3><i class="fas fa-gem"></i> Harga Palladium</h3>
+                    <p>High Quality: <span class="harga">Rp 534.227 / gram</span></p>
+                    <p>Low Quality: <span class="harga">Rp 457.909 / gram</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!--== New Collection Area Start ==-->
 <section id="new-collection-area" class="p-9">
@@ -856,103 +848,6 @@
     </div>
 </section>
 <!--== New Collection Area End ==-->
-
-<!--== Products by Category Area Start ==-->
-<div id="product-categories-area">
-    <div class="ruby-container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="large-size-cate">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="single-cat-item">
-                                <figure class="category-thumb">
-                                    <a href="#"><img src="assets/img/women-cat.jpg" alt="Women Category"
-                                                     class="img-fluid"/></a>
-
-                                    <figcaption class="category-name">
-                                        <a href="#">Shop For Women</a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="single-cat-item">
-                                <figure class="category-thumb">
-                                    <a href="#"><img src="assets/img/men-cat.jpg" alt="Men Category" class="img-fluid"/></a>
-
-                                    <figcaption class="category-name">
-                                        <a href="#">Shop For Men</a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
-                <div class="small-size-cate">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="single-cat-item">
-                                <figure class="category-thumb">
-                                    <a href="#"><img src="assets/img/jewellery-cat.jpg" alt="Men Category"
-                                                     class="img-fluid"/></a>
-
-                                    <figcaption class="category-name">
-                                        <a href="#">Jewellery</a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="single-cat-item">
-                                <figure class="category-thumb">
-                                    <a href="#"><img src="assets/img/women-cat2.jpg" alt="Men Category"
-                                                     class="img-fluid"/></a>
-
-                                    <figcaption class="category-name">
-                                        <a href="#">Kamiz</a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="single-cat-item">
-                                <figure class="category-thumb">
-                                    <a href="#"><img src="assets/img/watch-cat.jpg" alt="Men Category"
-                                                     class="img-fluid"/></a>
-
-                                    <figcaption class="category-name">
-                                        <a href="#">watches</a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="single-cat-item">
-                                <figure class="category-thumb">
-                                    <a href="#"><img src="assets/img/suit-cat.jpg" alt="Men Category"
-                                                     class="img-fluid"/></a>
-
-                                    <figcaption class="category-name">
-                                        <a href="#">Men Suit</a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--== Products by Category Area End ==-->
 
 <!--== New Products Area Start ==-->
 <section id="new-products-area" class="p-9">
@@ -1605,6 +1500,99 @@
 
 <!--=== Active Js ===-->
 <script src="assets/js/active.js"></script>
+<script>
+    // Inisialisasi peta dan atur posisi awal (Indonesia)
+    var map = L.map('map', {
+    scrollWheelZoom: false
+}).setView([-5, 115], 5
+);  
+
+    // Tambahkan layer peta dari OpenStreetMap
+    L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png', {
+        maxZoom: 18,
+        attribution: '&copy; <a href="https://carto.com/">CartoDB</a>'
+    }).addTo(map);
+
+    // Daftar lokasi cabang
+    var branches = [
+        {
+            name: "I LOVE EMAS JAKARTA BARAT",
+            hours: "BUKA SETIAP HARI pukul 09.00 - 21.45 WIB",
+            coords: [-6.150789, 106.7127462],
+            link: "https://maps.app.goo.gl/Std5oTDXZpGdYmug7"
+        },
+        {
+            name: "I LOVE EMAS JAKARTA SELATAN",
+            hours: "BUKA SETIAP HARI pukul 10.00 - 21.45 WIB",
+            coords: [-6.3056042, 106.8373825],
+            link: "https://maps.app.goo.gl/tj6h4GLAeFeExf4s6"
+        },
+        {
+            name: "I LOVE EMAS CAKUNG",
+            hours: "BUKA SETIAP HARI pukul 10.00 - 21.45 WIB",
+            coords: [-6.1725708, 106.9494589],
+            link: "https://maps.app.goo.gl/stdxawps1hRpjhNN8"
+        },
+        {
+            name: "I LOVE EMAS BOGOR",
+            hours: "BUKA SETIAP HARI pukul 10.00 - 21.45 WIB",
+            coords: [-6.5672208, 106.8542544],
+            link: "https://maps.app.goo.gl/bvFneeA8rvX6WCUh8"
+        },
+        {
+            name: "I LOVE EMAS BEKASI",
+            hours: "BUKA SETIAP HARI pukul 10.00 - 21.45 WIB",
+            coords: [-6.2541598, 106.9876806],
+            link: "https://maps.app.goo.gl/1V62QrZPKi7VQfUeA"
+        },
+        {
+            name: "I LOVE EMAS CIKARANG",
+            hours: "BUKA SETIAP HARI pukul 10.00 - 21.45 WIB",
+            coords: [-6.3515689, 107.190566],
+            link: "https://maps.app.goo.gl/1KrXjEcr6jtJfRgg7"
+        },
+        {
+            name: "I LOVE EMAS BANDUNG",
+            hours: "BUKA SETIAP HARI pukul 10.00 - 21.45 WIB",
+            coords: [-6.9079968, 107.6085065],
+            link: "https://maps.app.goo.gl/ywF4dpCmEVqHmzRaA"
+        },
+        {
+            name: "I LOVE EMAS SURABAYA",
+            hours: "BUKA SETIAP HARI pukul 10.00 - 21.30 WIB",
+            coords: [-7.3091717, 112.7323974],
+            link: "https://maps.app.goo.gl/n53AagpWfjL1BVHw5"
+        },
+        {
+            name: "I LOVE EMAS BALI",
+            hours: "BUKA SETIAP HARI pukul 09.00 - 21.45 WITA",
+            coords: [-8.6866002, 115.1832059],
+            link: "https://maps.app.goo.gl/9fe6ycow3NNxadHS6"
+        },
+        {
+            name: "I LOVE EMAS MEDAN",
+            hours: "BUKA SETIAP HARI pukul 11.00 - 21.45 WIB",
+            coords: [3.575764, 98.6229416],
+            link: "https://maps.app.goo.gl/AvFkWJsTeDBaV6uD7"
+        },
+        {
+            name: "I LOVE EMAS MAKASSAR",
+            hours: "BUKA SETIAP HARI pukul 10.00 - 21.45 WITA",
+            coords: [-5.1396625, 119.4474115],
+            link: "https://maps.app.goo.gl/jDRkJgGg6V8UZkWN9"
+        }
+    ];
+
+    // Menambahkan setiap cabang ke peta
+    branches.forEach(function(branch) {
+        L.marker(branch.coords).addTo(map)
+            .bindPopup('<strong>' + branch.name + '</strong><br>' + branch.hours + '<br><a href="' + branch.link + '" target="_blank" style="color: #007bff;">Petunjuk Arah</a>')
+            .bindTooltip(branch.name + "<br>" + branch.hours, {
+                permanent: false,
+                direction: "top"
+            });
+    });
+</script>
 </body>
 
 </html>
